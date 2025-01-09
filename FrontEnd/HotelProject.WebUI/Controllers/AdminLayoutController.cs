@@ -13,5 +13,26 @@ namespace HotelProject.WebUI.Controllers
         {
             return PartialView();
         }
+        public PartialViewResult TopBarPartial()
+        {
+            return PartialView();
+        }
+
+        public PartialViewResult SideBarPartial()
+        {
+            return PartialView();
+        }
+        public PartialViewResult FooterPartial()
+        {
+            return PartialView();
+        }
+        public PartialViewResult LogoutPartial()
+        {
+            return PartialView();
+        }
+        public PartialViewResult ScriptsPartial()
+        {
+            return PartialView();
+        }
     }
 }
